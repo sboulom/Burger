@@ -4,6 +4,7 @@
             {{#each burgerData}}
             {{!-- from mysqlfile --}}
             {{#unless devoured}}
+            <input type="hidden" class = "burger_id" value={{id}}>
             {{burger_name}} <button id="devoured">Devoured</button>
             <br>
             {{/unless}}
@@ -21,7 +22,7 @@
             <br>
             {{/if}}
             {{/each}}
-        
+
 
         </div>
     </div>
