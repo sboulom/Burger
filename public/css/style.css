@@ -1,12 +1,12 @@
- /* #center{
+/* #center{
   ext-align: center;
     margin-left: 200px
   } */
 
-
-.background {
+body {
   background-color: #ffa600;
 }
 .container {
   text-align: center;
+  margin-top: 100px;
 }
